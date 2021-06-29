@@ -1,0 +1,26 @@
+.space{
+    padding-top: 200px ;
+}
+body{
+    background-image: url("/Pictures/tt3.jpg");
+}
+#card{
+    border-radius: 3%;
+    width: 70%;
+    height: 500px;
+    background-color:whitesmoke;
+    margin-bottom: 5%;
+}
+img{
+    width: 500px;
+    height: 350px;
+    margin-left: 25%;
+    padding-top: 25px;
+}
+p{
+    padding-top: 25px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#card:hover {background-color: #fff;}

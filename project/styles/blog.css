@@ -1,0 +1,14 @@
+.space{
+    padding-top: 100px;
+}
+td{
+    background-color: rgba(203, 220, 245, 0.192);
+    border-radius: 50px;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+
+

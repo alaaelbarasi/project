@@ -1,0 +1,60 @@
+*{
+    /*So that the padding and margin won't effect the width*/
+   box-sizing: border-box ; 
+   padding: auto;
+   margin: auto;
+}
+
+/*Navbar*/
+.nav{
+    background-color: rgba(255, 255, 255, 0.973);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+.nav .Web-name{
+    float:left;
+    width: 40%;
+    text-transform: uppercase;
+    margin-top: 15px;
+ 
+}
+.nav .links{
+    float:left;
+    width:60%;
+    margin-top: 20px;
+}
+.nav li{
+
+    padding: 10px 15px;
+    display: inline-block;
+}
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(2, 2, 37);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(2, 2, 37);
+    cursor: pointer;
+}
+#container{
+    width: 50%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.185);
+    padding-bottom: 20px;
+}
+footer {
+    padding-left: 50px;
+    text-align: left;
+    padding-top: 3px;
+    background-color: rgba(79, 94, 224, 0.062);
+    color: black;
+  }
